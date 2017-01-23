@@ -12,8 +12,6 @@ import SmartDeviceLink_iOS
 class HSDLProxyManager : NSObject {
 // TODO: Change these to match your app settings!!
     // TCP/IP (Emulator) configuration
-
-    //19.32.136.90:2776
     let RemoteIpAddress = "127.0.0.1"
     let RemotePort: UInt16 = 12345
     
