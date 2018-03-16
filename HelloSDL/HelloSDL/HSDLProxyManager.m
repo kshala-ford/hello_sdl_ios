@@ -78,7 +78,7 @@ static const NSUInteger TestCommandID = 1;
 
         UIImage* appIcon = [UIImage imageNamed:IconFile];
         if (appIcon) {
-            _lifecycleConfiguration.appIcon = [SDLArtwork artworkWithImage:appIcon name:IconFile asImageFormat:SDLArtworkImageFormatPNG];
+            _lifecycleConfiguration.appIcon = [SDLArtwork persistentArtworkWithImage:appIcon name:IconFile asImageFormat:SDLArtworkImageFormatPNG];
         }
         
         // SDLConfiguration contains the lifecycle and lockscreen configurations
