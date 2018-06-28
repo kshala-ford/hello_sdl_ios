@@ -1,3 +1,5 @@
+# Use the Example Apps in the sdl_ios project instead!
+
 # Hello SDL
 This XCode project acts as a reference iOS app using the 4.0.0 SDL SDK.
 
